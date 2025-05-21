@@ -50,7 +50,7 @@ class Juego:
         return self.rangers
 
     def presentar(self):
-        for ranger in self.rangers:
+        for ranger in self.rangers:s
             print(ranger.presentar())
 
     def pelear(self):
